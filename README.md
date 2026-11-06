@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/lauren-lynch-cs/"><img src="https://img.shields.io/badge/LinkedIn-lauren--lynch--cs-A3A7D9?style=flat-square&logo=linkedin&logoColor=white&labelColor=1B1B2F" alt="LinkedIn"></a>
+  <a href="https://www.linkedin.com/in/lauren-lynch-cs/"><img src="assets/linkedin-cloud.svg" alt="say hi on LinkedIn" width="260"></a>
 </p>
 
 <img src="assets/headers/about.svg" alt="about me" width="560">
@@ -22,9 +22,7 @@ I study computer science at Quinnipiac University (I transferred from the Univer
 </p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=py,cpp,java,kotlin,cs,js,nodejs,react,spring,mysql,mongodb&theme=light" alt="languages and frameworks">
-  <br>
-  <img src="https://skillicons.dev/icons?i=aws,azure,terraform,jenkins,git,linux,idea,vscode,figma&theme=light" alt="cloud and tools">
+  <img src="assets/apps.svg" alt="Python, C++, Java, Kotlin, C#, JavaScript, Node.js, React, Spring, MySQL, MongoDB, AWS, Azure, Terraform, Jenkins, Git, Linux, IntelliJ, VS Code, Figma" width="100%">
 </p>
 
 <img src="assets/headers/experience.svg" alt="experience" width="560">
