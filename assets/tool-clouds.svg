@@ -1,0 +1,231 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2a9be6"/><stop offset="0.6" stop-color="#8fd3f7"/><stop offset="1" stop-color="#e6f8ff"/>
+  </linearGradient>
+  <radialGradient id="sun" cx="0.1" cy="0.05" r="0.5">
+    <stop offset="0" stop-color="#fff" stop-opacity="0.9"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="cloud" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff"/><stop offset="0.55" stop-color="#f4fbff"/><stop offset="1" stop-color="#cfeaff"/>
+  </linearGradient>
+  <linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#fff" stop-opacity="0.95"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient id="bub" cx="0.35" cy="0.3" r="0.75">
+    <stop offset="0" stop-color="#fff" stop-opacity="0.9"/><stop offset="0.35" stop-color="#e8fbff" stop-opacity="0.3"/>
+    <stop offset="0.85" stop-color="#9fe3ff" stop-opacity="0.12"/><stop offset="1" stop-color="#fff" stop-opacity="0.7"/>
+  </radialGradient>
+  <linearGradient id="hill" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b8f06a"/><stop offset="0.5" stop-color="#6cc93a"/><stop offset="1" stop-color="#2f8f1f"/>
+  </linearGradient>
+  <filter id="sh" x="-20%" y="-30%" width="140%" height="170%">
+    <feDropShadow dx="0" dy="5" stdDeviation="5" flood-color="#0b5c99" flood-opacity="0.22"/>
+  </filter>
+  <filter id="blur"><feGaussianBlur stdDeviation="5"/></filter>
+  <clipPath id="frame"><rect width="1200" height="300" rx="22"/></clipPath>
+</defs>
+<style>
+  .c { animation: bob ease-in-out infinite; }
+  @keyframes bob { 0%,100% { transform: translateY(0px); } 50% { transform: translateY(-9px); } }
+  .drift { animation: drift linear infinite; }
+  @keyframes drift { from { transform: translateX(-260px); } to { transform: translateX(1460px); } }
+  .b { animation: rise linear infinite; opacity: 0; }
+  @keyframes rise { 0% { transform: translateY(0); opacity: 0; } 10% { opacity: 0.9; } 85% { opacity: 0.8; } 100% { transform: translateY(-300px); opacity: 0; } }
+  text { font-family: 'Segoe UI', Frutiger, 'Myriad Pro', Helvetica, Arial, sans-serif; }
+</style>
+<g clip-path="url(#frame)">
+<rect width="1200" height="300" fill="url(#sky)"/>
+<rect width="1200" height="300" fill="url(#sun)"/>
+
+<g class="drift" style="animation-duration:70s;animation-delay:0s"><ellipse cx="0" cy="40" rx="110" ry="20" fill="#fff" opacity="0.45" filter="url(#blur)"/></g>
+<g class="drift" style="animation-duration:90s;animation-delay:-40s"><ellipse cx="0" cy="120" rx="80" ry="14" fill="#fff" opacity="0.45" filter="url(#blur)"/></g>
+<g class="drift" style="animation-duration:80s;animation-delay:-20s"><ellipse cx="0" cy="200" rx="130" ry="23" fill="#fff" opacity="0.45" filter="url(#blur)"/></g>
+<g class="drift" style="animation-duration:100s;animation-delay:-70s"><ellipse cx="0" cy="90" rx="70" ry="13" fill="#fff" opacity="0.45" filter="url(#blur)"/></g>
+<path d="M0,282 C220,262 420,268 620,280 C840,292 1000,264 1200,272 L1200,300 L0,300 Z" fill="url(#hill)"/>
+<path d="M0,282 C220,262 420,268 620,280 C840,292 1000,264 1200,272 L1200,279 C1000,272 840,299 620,287 C420,276 220,270 0,290 Z" fill="#fff" opacity="0.4"/>
+<g class="b" style="animation-duration:11s;animation-delay:0s"><circle cx="60" cy="310" r="9" fill="url(#bub)" stroke="#fff" stroke-opacity="0.7"/><ellipse cx="56.9" cy="306.4" rx="3.1" ry="1.8" fill="#fff" opacity="0.9"/></g>
+<g class="b" style="animation-duration:14s;animation-delay:-5s"><circle cx="300" cy="310" r="6" fill="url(#bub)" stroke="#fff" stroke-opacity="0.7"/><ellipse cx="297.9" cy="307.6" rx="2.1" ry="1.2" fill="#fff" opacity="0.9"/></g>
+<g class="b" style="animation-duration:13s;animation-delay:-9s"><circle cx="520" cy="310" r="11" fill="url(#bub)" stroke="#fff" stroke-opacity="0.7"/><ellipse cx="516.1" cy="305.6" rx="3.8" ry="2.2" fill="#fff" opacity="0.9"/></g>
+<g class="b" style="animation-duration:12s;animation-delay:-3s"><circle cx="760" cy="310" r="7" fill="url(#bub)" stroke="#fff" stroke-opacity="0.7"/><ellipse cx="757.5" cy="307.2" rx="2.4" ry="1.4" fill="#fff" opacity="0.9"/></g>
+<g class="b" style="animation-duration:15s;animation-delay:-7s"><circle cx="980" cy="310" r="10" fill="url(#bub)" stroke="#fff" stroke-opacity="0.7"/><ellipse cx="976.5" cy="306.0" rx="3.5" ry="2.0" fill="#fff" opacity="0.9"/></g>
+<g class="b" style="animation-duration:10s;animation-delay:-2s"><circle cx="1150" cy="310" r="6" fill="url(#bub)" stroke="#fff" stroke-opacity="0.7"/><ellipse cx="1147.9" cy="307.6" rx="2.1" ry="1.2" fill="#fff" opacity="0.9"/></g>
+<g class="b" style="animation-duration:16s;animation-delay:-12s"><circle cx="430" cy="310" r="5" fill="url(#bub)" stroke="#fff" stroke-opacity="0.7"/><ellipse cx="428.2" cy="308.0" rx="1.8" ry="1.0" fill="#fff" opacity="0.9"/></g>
+<g class="b" style="animation-duration:12s;animation-delay:-10s"><circle cx="870" cy="310" r="5" fill="url(#bub)" stroke="#fff" stroke-opacity="0.7"/><ellipse cx="868.2" cy="308.0" rx="1.8" ry="1.0" fill="#fff" opacity="0.9"/></g>
+<g class="c" style="animation-duration:5s;animation-delay:-0.0s">
+<g filter="url(#sh)" fill="url(#cloud)" stroke="#ffffff" stroke-width="0">
+<rect x="40.0" y="43.0" width="106.4" height="38" rx="19.0"/>
+<circle cx="62.0" cy="49.0" r="23"/>
+<circle cx="124.4" cy="49.0" r="22"/>
+</g>
+<ellipse cx="93.2" cy="39.0" rx="38.3" ry="9" fill="url(#gloss)" opacity="0.9"/>
+<text x="93.2" y="70.0" text-anchor="middle" font-size="19" font-weight="600" fill="#0b5c99">Python</text>
+</g>
+<g class="c" style="animation-duration:8s;animation-delay:-1.3s">
+<g filter="url(#sh)" fill="url(#cloud)" stroke="#ffffff" stroke-width="0">
+<rect x="211.6" y="43.0" width="92.0" height="38" rx="19.0"/>
+<circle cx="233.6" cy="49.0" r="23"/>
+<circle cx="281.6" cy="49.0" r="22"/>
+</g>
+<ellipse cx="257.6" cy="39.0" rx="33.1" ry="9" fill="url(#gloss)" opacity="0.9"/>
+<text x="257.6" y="70.0" text-anchor="middle" font-size="19" font-weight="600" fill="#0b5c99">C++</text>
+</g>
+<g class="c" style="animation-duration:7s;animation-delay:-2.6s">
+<g filter="url(#sh)" fill="url(#cloud)" stroke="#ffffff" stroke-width="0">
+<rect x="368.8" y="43.0" width="92.0" height="38" rx="19.0"/>
+<circle cx="390.8" cy="49.0" r="23"/>
+<circle cx="438.8" cy="49.0" r="22"/>
+</g>
+<ellipse cx="414.8" cy="39.0" rx="33.1" ry="9" fill="url(#gloss)" opacity="0.9"/>
+<text x="414.8" y="70.0" text-anchor="middle" font-size="19" font-weight="600" fill="#0b5c99">Java</text>
+</g>
+<g class="c" style="animation-duration:6s;animation-delay:-3.9000000000000004s">
+<g filter="url(#sh)" fill="url(#cloud)" stroke="#ffffff" stroke-width="0">
+<rect x="526.0" y="43.0" width="106.4" height="38" rx="19.0"/>
+<circle cx="548.0" cy="49.0" r="23"/>
+<circle cx="610.4" cy="49.0" r="22"/>
+</g>
+<ellipse cx="579.2" cy="39.0" rx="38.3" ry="9" fill="url(#gloss)" opacity="0.9"/>
+<text x="579.2" y="70.0" text-anchor="middle" font-size="19" font-weight="600" fill="#0b5c99">Kotlin</text>
+</g>
+<g class="c" style="animation-duration:5s;animation-delay:-0.20000000000000018s">
+<g filter="url(#sh)" fill="url(#cloud)" stroke="#ffffff" stroke-width="0">
+<rect x="697.6" y="43.0" width="92.0" height="38" rx="19.0"/>
+<circle cx="719.6" cy="49.0" r="23"/>
+<circle cx="767.6" cy="49.0" r="22"/>
+</g>
+<ellipse cx="743.6" cy="39.0" rx="33.1" ry="9" fill="url(#gloss)" opacity="0.9"/>
+<text x="743.6" y="70.0" text-anchor="middle" font-size="19" font-weight="600" fill="#0b5c99">C#</text>
+</g>
+<g class="c" style="animation-duration:8s;animation-delay:-1.5s">
+<g filter="url(#sh)" fill="url(#cloud)" stroke="#ffffff" stroke-width="0">
+<rect x="854.8" y="43.0" width="148.0" height="38" rx="19.0"/>
+<circle cx="876.8" cy="49.0" r="23"/>
+<circle cx="928.8" cy="49.0" r="22"/>
+<circle cx="980.8" cy="49.0" r="23"/>
+</g>
+<ellipse cx="928.8" cy="39.0" rx="53.3" ry="9" fill="url(#gloss)" opacity="0.9"/>
+<text x="928.8" y="70.0" text-anchor="middle" font-size="19" font-weight="600" fill="#0b5c99">JavaScript</text>
+</g>
+<g class="c" style="animation-duration:7s;animation-delay:-2.8000000000000007s">
+<g filter="url(#sh)" fill="url(#cloud)" stroke="#ffffff" stroke-width="0">
+<rect x="1068.0" y="43.0" width="92.0" height="38" rx="19.0"/>
+<circle cx="1090.0" cy="49.0" r="23"/>
+<circle cx="1138.0" cy="49.0" r="22"/>
+</g>
+<ellipse cx="1114.0" cy="39.0" rx="33.1" ry="9" fill="url(#gloss)" opacity="0.9"/>
+<text x="1114.0" y="70.0" text-anchor="middle" font-size="19" font-weight="600" fill="#0b5c99">SQL</text>
+</g>
+<g class="c" style="animation-duration:6s;animation-delay:-4.1s">
+<g filter="url(#sh)" fill="url(#cloud)" stroke="#ffffff" stroke-width="0">
+<rect x="58.0" y="123.0" width="92.0" height="38" rx="19.0"/>
+<circle cx="80.0" cy="129.0" r="23"/>
+<circle cx="128.0" cy="129.0" r="22"/>
+</g>
+<ellipse cx="104.0" cy="119.0" rx="33.1" ry="9" fill="url(#gloss)" opacity="0.9"/>
+<text x="104.0" y="150.0" text-anchor="middle" font-size="19" font-weight="600" fill="#0b5c99">AWS</text>
+</g>
+<g class="c" style="animation-duration:5s;animation-delay:-0.40000000000000036s">
+<g filter="url(#sh)" fill="url(#cloud)" stroke="#ffffff" stroke-width="0">
+<rect x="227.4" y="123.0" width="96.0" height="38" rx="19.0"/>
+<circle cx="249.4" cy="129.0" r="23"/>
+<circle cx="301.4" cy="129.0" r="22"/>
+</g>
+<ellipse cx="275.4" cy="119.0" rx="34.6" ry="9" fill="url(#gloss)" opacity="0.9"/>
+<text x="275.4" y="150.0" text-anchor="middle" font-size="19" font-weight="600" fill="#0b5c99">Azure</text>
+</g>
+<g class="c" style="animation-duration:8s;animation-delay:-1.700000000000001s">
+<g filter="url(#sh)" fill="url(#cloud)" stroke="#ffffff" stroke-width="0">
+<rect x="400.9" y="123.0" width="137.6" height="38" rx="19.0"/>
+<circle cx="422.9" cy="129.0" r="23"/>
+<circle cx="516.5" cy="129.0" r="22"/>
+</g>
+<ellipse cx="469.7" cy="119.0" rx="49.5" ry="9" fill="url(#gloss)" opacity="0.9"/>
+<text x="469.7" y="150.0" text-anchor="middle" font-size="19" font-weight="600" fill="#0b5c99">Terraform</text>
+</g>
+<g class="c" style="animation-duration:7s;animation-delay:-3.0s">
+<g filter="url(#sh)" fill="url(#cloud)" stroke="#ffffff" stroke-width="0">
+<rect x="615.9" y="123.0" width="116.8" height="38" rx="19.0"/>
+<circle cx="637.9" cy="129.0" r="23"/>
+<circle cx="710.7" cy="129.0" r="22"/>
+</g>
+<ellipse cx="674.3" cy="119.0" rx="42.0" ry="9" fill="url(#gloss)" opacity="0.9"/>
+<text x="674.3" y="150.0" text-anchor="middle" font-size="19" font-weight="600" fill="#0b5c99">Node.js</text>
+</g>
+<g class="c" style="animation-duration:6s;animation-delay:-4.300000000000001s">
+<g filter="url(#sh)" fill="url(#cloud)" stroke="#ffffff" stroke-width="0">
+<rect x="810.2" y="123.0" width="158.4" height="38" rx="19.0"/>
+<circle cx="832.2" cy="129.0" r="23"/>
+<circle cx="889.4" cy="129.0" r="22"/>
+<circle cx="946.6" cy="129.0" r="23"/>
+</g>
+<ellipse cx="889.4" cy="119.0" rx="57.0" ry="9" fill="url(#gloss)" opacity="0.9"/>
+<text x="889.4" y="150.0" text-anchor="middle" font-size="19" font-weight="600" fill="#0b5c99">Spring Boot</text>
+</g>
+<g class="c" style="animation-duration:5s;animation-delay:-0.6000000000000014s">
+<g filter="url(#sh)" fill="url(#cloud)" stroke="#ffffff" stroke-width="0">
+<rect x="1046.0" y="123.0" width="96.0" height="38" rx="19.0"/>
+<circle cx="1068.0" cy="129.0" r="23"/>
+<circle cx="1120.0" cy="129.0" r="22"/>
+</g>
+<ellipse cx="1094.0" cy="119.0" rx="34.6" ry="9" fill="url(#gloss)" opacity="0.9"/>
+<text x="1094.0" y="150.0" text-anchor="middle" font-size="19" font-weight="600" fill="#0b5c99">React</text>
+</g>
+<g class="c" style="animation-duration:8s;animation-delay:-1.9000000000000021s">
+<g filter="url(#sh)" fill="url(#cloud)" stroke="#ffffff" stroke-width="0">
+<rect x="40.0" y="203.0" width="116.8" height="38" rx="19.0"/>
+<circle cx="62.0" cy="209.0" r="23"/>
+<circle cx="134.8" cy="209.0" r="22"/>
+</g>
+<ellipse cx="98.4" cy="199.0" rx="42.0" ry="9" fill="url(#gloss)" opacity="0.9"/>
+<text x="98.4" y="230.0" text-anchor="middle" font-size="19" font-weight="600" fill="#0b5c99">MongoDB</text>
+</g>
+<g class="c" style="animation-duration:7s;animation-delay:-3.1999999999999993s">
+<g filter="url(#sh)" fill="url(#cloud)" stroke="#ffffff" stroke-width="0">
+<rect x="238.6" y="203.0" width="106.4" height="38" rx="19.0"/>
+<circle cx="260.6" cy="209.0" r="23"/>
+<circle cx="323.0" cy="209.0" r="22"/>
+</g>
+<ellipse cx="291.8" cy="199.0" rx="38.3" ry="9" fill="url(#gloss)" opacity="0.9"/>
+<text x="291.8" y="230.0" text-anchor="middle" font-size="19" font-weight="600" fill="#0b5c99">OpenCV</text>
+</g>
+<g class="c" style="animation-duration:6s;animation-delay:-4.5s">
+<g filter="url(#sh)" fill="url(#cloud)" stroke="#ffffff" stroke-width="0">
+<rect x="426.7" y="203.0" width="168.8" height="38" rx="19.0"/>
+<circle cx="448.7" cy="209.0" r="23"/>
+<circle cx="511.1" cy="209.0" r="22"/>
+<circle cx="573.5" cy="209.0" r="23"/>
+</g>
+<ellipse cx="511.1" cy="199.0" rx="60.8" ry="9" fill="url(#gloss)" opacity="0.9"/>
+<text x="511.1" y="230.0" text-anchor="middle" font-size="19" font-weight="600" fill="#0b5c99">scikit-learn</text>
+</g>
+<g class="c" style="animation-duration:5s;animation-delay:-0.8000000000000007s">
+<g filter="url(#sh)" fill="url(#cloud)" stroke="#ffffff" stroke-width="0">
+<rect x="677.3" y="203.0" width="106.4" height="38" rx="19.0"/>
+<circle cx="699.3" cy="209.0" r="23"/>
+<circle cx="761.7" cy="209.0" r="22"/>
+</g>
+<ellipse cx="730.5" cy="199.0" rx="38.3" ry="9" fill="url(#gloss)" opacity="0.9"/>
+<text x="730.5" y="230.0" text-anchor="middle" font-size="19" font-weight="600" fill="#0b5c99">pandas</text>
+</g>
+<g class="c" style="animation-duration:8s;animation-delay:-2.1000000000000014s">
+<g filter="url(#sh)" fill="url(#cloud)" stroke="#ffffff" stroke-width="0">
+<rect x="865.4" y="203.0" width="116.8" height="38" rx="19.0"/>
+<circle cx="887.4" cy="209.0" r="23"/>
+<circle cx="960.2" cy="209.0" r="22"/>
+</g>
+<ellipse cx="923.8" cy="199.0" rx="42.0" ry="9" fill="url(#gloss)" opacity="0.9"/>
+<text x="923.8" y="230.0" text-anchor="middle" font-size="19" font-weight="600" fill="#0b5c99">Jenkins</text>
+</g>
+<g class="c" style="animation-duration:7s;animation-delay:-3.400000000000002s">
+<g filter="url(#sh)" fill="url(#cloud)" stroke="#ffffff" stroke-width="0">
+<rect x="1064.0" y="203.0" width="96.0" height="38" rx="19.0"/>
+<circle cx="1086.0" cy="209.0" r="23"/>
+<circle cx="1138.0" cy="209.0" r="22"/>
+</g>
+<ellipse cx="1112.0" cy="199.0" rx="34.6" ry="9" fill="url(#gloss)" opacity="0.9"/>
+<text x="1112.0" y="230.0" text-anchor="middle" font-size="19" font-weight="600" fill="#0b5c99">Figma</text>
+</g>
+</g>
+<rect x="0.75" y="0.75" width="1198.5" height="298.5" rx="22" fill="none" stroke="#fff" stroke-opacity="0.6" stroke-width="1.5"/>
+</svg>
