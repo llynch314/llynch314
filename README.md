@@ -80,13 +80,15 @@ I study computer science at Quinnipiac University (I transferred from the Univer
       <br><br>
       <sub>C++ · CMake · Python</sub>
     </td>
-        <td width="50%" valign="top">
+  </tr>
+  <tr>
+      <td width="50%" valign="top">
       <h4><a href="https://github.com/llynch314/QUHack">AI Mental Well-Being Companion ★ 1st Place Winner & Best Presentation</a></h4>
       <sub>Quinnipiac Hack · November 2026</sub>
       I Built the entire backend in Python/Flask: a REST API connecting the Claude text chat and webcam emotion analysis with Gemini Live real-time voice through a WebSocket relay, all wired to the frontend. Where I Designed the SQL database with Google sign-in and role-based access for patients, providers, and family, plus crisis detection that sends Twilio SMS/push alerts.
       <br><br>
       <sub>Python · Javascript · HTML · CSS · SQL · Gemini API · Claude API · AI Integration</sub>
-    </td>
+      </td>
   </tr>
 </table>
 
