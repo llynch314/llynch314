@@ -18,7 +18,27 @@ I study computer science at Quinnipiac University (I transferred from the Univer
 <img src="assets/headers/toolbox.svg" alt="toolbox" width="560">
 
 <p align="center">
-  <img src="assets/tool-clouds.svg" alt="Tools I use: Python, C++, Java, Kotlin, C#, JavaScript, SQL, AWS, Azure, Terraform, Node.js, Spring Boot, React, MongoDB, OpenCV, scikit-learn, pandas, Jenkins, Figma" width="100%">
+  <a href="https://www.python.org/" title="Python"><img src="assets/clouds/python.svg" alt="Python" title="Python" width="106"></a>
+  <a href="https://isocpp.org/" title="C++"><img src="assets/clouds/cpp.svg" alt="C++" title="C++" width="104"></a>
+  <a href="https://dev.java/" title="Java"><img src="assets/clouds/java.svg" alt="Java" title="Java" width="104"></a>
+  <a href="https://kotlinlang.org/" title="Kotlin"><img src="assets/clouds/kotlin.svg" alt="Kotlin" title="Kotlin" width="106"></a>
+  <a href="https://learn.microsoft.com/dotnet/csharp/" title="C#"><img src="assets/clouds/csharp.svg" alt="C#" title="C#" width="104"></a>
+  <a href="https://developer.mozilla.org/docs/Web/JavaScript" title="JavaScript"><img src="assets/clouds/javascript.svg" alt="JavaScript" title="JavaScript" width="141"></a>
+  <a href="https://en.wikipedia.org/wiki/SQL" title="SQL"><img src="assets/clouds/sql.svg" alt="SQL" title="SQL" width="104"></a>
+  <br>
+  <a href="https://aws.amazon.com/" title="AWS"><img src="assets/clouds/aws.svg" alt="AWS" title="AWS" width="104"></a>
+  <a href="https://azure.microsoft.com/" title="Azure"><img src="assets/clouds/azure.svg" alt="Azure" title="Azure" width="104"></a>
+  <a href="https://www.terraform.io/" title="Terraform"><img src="assets/clouds/terraform.svg" alt="Terraform" title="Terraform" width="132"></a>
+  <a href="https://nodejs.org/" title="Node.js"><img src="assets/clouds/node-js.svg" alt="Node.js" title="Node.js" width="115"></a>
+  <a href="https://spring.io/projects/spring-boot" title="Spring Boot"><img src="assets/clouds/spring-boot.svg" alt="Spring Boot" title="Spring Boot" width="150"></a>
+  <a href="https://react.dev/" title="React"><img src="assets/clouds/react.svg" alt="React" title="React" width="104"></a>
+  <br>
+  <a href="https://www.mongodb.com/" title="MongoDB"><img src="assets/clouds/mongodb.svg" alt="MongoDB" title="MongoDB" width="115"></a>
+  <a href="https://opencv.org/" title="OpenCV"><img src="assets/clouds/opencv.svg" alt="OpenCV" title="OpenCV" width="106"></a>
+  <a href="https://scikit-learn.org/" title="scikit-learn"><img src="assets/clouds/scikit-learn.svg" alt="scikit-learn" title="scikit-learn" width="159"></a>
+  <a href="https://pandas.pydata.org/" title="pandas"><img src="assets/clouds/pandas.svg" alt="pandas" title="pandas" width="106"></a>
+  <a href="https://www.jenkins.io/" title="Jenkins"><img src="assets/clouds/jenkins.svg" alt="Jenkins" title="Jenkins" width="115"></a>
+  <a href="https://www.figma.com/" title="Figma"><img src="assets/clouds/figma.svg" alt="Figma" title="Figma" width="104"></a>
 </p>
 
 <p align="center">
