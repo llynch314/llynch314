@@ -1,0 +1,47 @@
+name: commit fm
+
+# Renders the "now playing" terminal banner from public GitHub activity.
+# Uses the vendored, recolored copy of Commit FM in .commit-fm/
+# (upstream: https://github.com/OthmanAdi/commit-fm, MIT).
+# Output goes to the commit-fm-output branch so main isn't spammed with bot commits.
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "commitfm.json"
+      - ".commit-fm/**"
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: render light and dark banners
+        run: |
+          mkdir -p dist
+          node .commit-fm/bin/commit-fm.mjs render --theme light --out dist/commit-fm.svg
+          node .commit-fm/bin/commit-fm.mjs render --theme dark --out dist/commit-fm-dark.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: push to output branch
+        if: hashFiles('dist/commit-fm.svg') != ''
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: commit-fm-output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

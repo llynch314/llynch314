@@ -15,30 +15,19 @@
 
 I study computer science at Quinnipiac University (I transferred from the University of New Haven). I'm most interested in backend development, data and cloud. I've spent two summers as a backend engineering intern at a Fortune 500 insurance company, and this year I'm working on an engineering document automation project.
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/llynch314/llynch314/commit-fm-output/commit-fm-dark.svg">
+  <img alt="now building: my most recently pushed repository and the rest in rotation" src="https://raw.githubusercontent.com/llynch314/llynch314/commit-fm-output/commit-fm.svg" width="100%">
+</picture>
+
 <img src="assets/headers/toolbox.svg" alt="toolbox" width="560">
 
 <p align="center">
-  <a href="https://www.python.org/" title="Python"><img src="assets/clouds/python.svg" alt="Python" title="Python" width="106"></a>
-  <a href="https://isocpp.org/" title="C++"><img src="assets/clouds/cpp.svg" alt="C++" title="C++" width="104"></a>
-  <a href="https://dev.java/" title="Java"><img src="assets/clouds/java.svg" alt="Java" title="Java" width="104"></a>
-  <a href="https://kotlinlang.org/" title="Kotlin"><img src="assets/clouds/kotlin.svg" alt="Kotlin" title="Kotlin" width="106"></a>
-  <a href="https://learn.microsoft.com/dotnet/csharp/" title="C#"><img src="assets/clouds/csharp.svg" alt="C#" title="C#" width="104"></a>
-  <a href="https://developer.mozilla.org/docs/Web/JavaScript" title="JavaScript"><img src="assets/clouds/javascript.svg" alt="JavaScript" title="JavaScript" width="141"></a>
-  <a href="https://en.wikipedia.org/wiki/SQL" title="SQL"><img src="assets/clouds/sql.svg" alt="SQL" title="SQL" width="104"></a>
-  <br>
-  <a href="https://aws.amazon.com/" title="AWS"><img src="assets/clouds/aws.svg" alt="AWS" title="AWS" width="104"></a>
-  <a href="https://azure.microsoft.com/" title="Azure"><img src="assets/clouds/azure.svg" alt="Azure" title="Azure" width="104"></a>
-  <a href="https://www.terraform.io/" title="Terraform"><img src="assets/clouds/terraform.svg" alt="Terraform" title="Terraform" width="132"></a>
-  <a href="https://nodejs.org/" title="Node.js"><img src="assets/clouds/node-js.svg" alt="Node.js" title="Node.js" width="115"></a>
-  <a href="https://spring.io/projects/spring-boot" title="Spring Boot"><img src="assets/clouds/spring-boot.svg" alt="Spring Boot" title="Spring Boot" width="150"></a>
-  <a href="https://react.dev/" title="React"><img src="assets/clouds/react.svg" alt="React" title="React" width="104"></a>
-  <br>
-  <a href="https://www.mongodb.com/" title="MongoDB"><img src="assets/clouds/mongodb.svg" alt="MongoDB" title="MongoDB" width="115"></a>
-  <a href="https://opencv.org/" title="OpenCV"><img src="assets/clouds/opencv.svg" alt="OpenCV" title="OpenCV" width="106"></a>
-  <a href="https://scikit-learn.org/" title="scikit-learn"><img src="assets/clouds/scikit-learn.svg" alt="scikit-learn" title="scikit-learn" width="159"></a>
-  <a href="https://pandas.pydata.org/" title="pandas"><img src="assets/clouds/pandas.svg" alt="pandas" title="pandas" width="106"></a>
-  <a href="https://www.jenkins.io/" title="Jenkins"><img src="assets/clouds/jenkins.svg" alt="Jenkins" title="Jenkins" width="115"></a>
-  <a href="https://www.figma.com/" title="Figma"><img src="assets/clouds/figma.svg" alt="Figma" title="Figma" width="104"></a>
+<img src="assets/clouds/top.svg" alt="" width="100%" align="top"><br>
+<a href="https://www.python.org/" title="Python"><img src="assets/clouds/1-python.svg" alt="Python" title="Python" width="15.1666%" align="top"></a><a href="https://isocpp.org/" title="C++"><img src="assets/clouds/1-cpp.svg" alt="C++" title="C++" width="12.6666%" align="top"></a><a href="https://dev.java/" title="Java"><img src="assets/clouds/1-java.svg" alt="Java" title="Java" width="12.7500%" align="top"></a><a href="https://kotlinlang.org/" title="Kotlin"><img src="assets/clouds/1-kotlin.svg" alt="Kotlin" title="Kotlin" width="12.9166%" align="top"></a><a href="https://learn.microsoft.com/dotnet/csharp/" title="C#"><img src="assets/clouds/1-csharp.svg" alt="C#" title="C#" width="12.7500%" align="top"></a><a href="https://developer.mozilla.org/docs/Web/JavaScript" title="JavaScript"><img src="assets/clouds/1-javascript.svg" alt="JavaScript" title="JavaScript" width="17.0833%" align="top"></a><a href="https://en.wikipedia.org/wiki/SQL" title="SQL"><img src="assets/clouds/1-sql.svg" alt="SQL" title="SQL" width="16.6666%" align="top"></a><br>
+<a href="https://aws.amazon.com/" title="AWS"><img src="assets/clouds/2-aws.svg" alt="AWS" title="AWS" width="17.0000%" align="top"></a><a href="https://azure.microsoft.com/" title="Azure"><img src="assets/clouds/2-azure.svg" alt="Azure" title="Azure" width="13.5000%" align="top"></a><a href="https://www.terraform.io/" title="Terraform"><img src="assets/clouds/2-terraform.svg" alt="Terraform" title="Terraform" width="16.9166%" align="top"></a><a href="https://nodejs.org/" title="Node.js"><img src="assets/clouds/2-node-js.svg" alt="Node.js" title="Node.js" width="14.8333%" align="top"></a><a href="https://spring.io/projects/spring-boot" title="Spring Boot"><img src="assets/clouds/2-spring-boot.svg" alt="Spring Boot" title="Spring Boot" width="19.0000%" align="top"></a><a href="https://react.dev/" title="React"><img src="assets/clouds/2-react.svg" alt="React" title="React" width="18.7500%" align="top"></a><br>
+<a href="https://www.mongodb.com/" title="MongoDB"><img src="assets/clouds/3-mongodb.svg" alt="MongoDB" title="MongoDB" width="17.0000%" align="top"></a><a href="https://opencv.org/" title="OpenCV"><img src="assets/clouds/3-opencv.svg" alt="OpenCV" title="OpenCV" width="14.5000%" align="top"></a><a href="https://scikit-learn.org/" title="scikit-learn"><img src="assets/clouds/3-scikit-learn.svg" alt="scikit-learn" title="scikit-learn" width="20.8333%" align="top"></a><a href="https://pandas.pydata.org/" title="pandas"><img src="assets/clouds/3-pandas.svg" alt="pandas" title="pandas" width="14.5833%" align="top"></a><a href="https://www.jenkins.io/" title="Jenkins"><img src="assets/clouds/3-jenkins.svg" alt="Jenkins" title="Jenkins" width="15.5833%" align="top"></a><a href="https://www.figma.com/" title="Figma"><img src="assets/clouds/3-figma.svg" alt="Figma" title="Figma" width="17.5000%" align="top"></a><br>
+<img src="assets/clouds/bottom.svg" alt="" width="100%" align="top">
 </p>
 
 <p align="center">
