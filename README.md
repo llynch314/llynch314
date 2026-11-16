@@ -92,6 +92,14 @@ I study computer science at Quinnipiac University (I transferred from the Univer
       <br><br>
       <sub>HTML · CSS</sub>
     </td>
+    <td width="50%" valign="top">
+      <h4>SDLC-Context-Agent</h4>
+      <sub>internship project · Summer 2026</sub>
+      <br><br>
+      A Claude plugin that connects internal tools to keep documentation up to date as the code changes. It pulls from Confluence pages, Jira boards, commit history and system architecture maps to explain what a repository does, why it was built and who added what. The goal is to keep that knowledge from leaving when the experts do, so new engineers aren't handed a repository full of secrets.
+      <br><br>
+      <sub>Claude Code · MCP · Confluence · Jira · Git</sub>
+    </td>
   </tr>
 </table>
 
