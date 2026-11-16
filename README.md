@@ -59,7 +59,7 @@ I study computer science at Quinnipiac University (I transferred from the Univer
       <sub>Python · OpenCV · Tesseract OCR · PyMuPDF · scikit-learn · pandas</sub>
     </td>
     <td width="50%" valign="top">
-      <h4>Facial Recognition Therapist Chatbot</h4>
+      <h4>Facial Recognition Therapist Chatbot ★ Winner in 3 Categories</h4>
       <sub>Hack New Haven · March 2025</sub>
       <br><br>
       Built in 24 hours with two teammates: a therapy website where a chatbot reads your facial expression and adjusts how it responds. Emotion analysis runs through the Google Gemini API, with MongoDB behind it. We won three categories: Best Game Design, Best Use of MongoDB and Best .Tech Domain Name.
@@ -79,6 +79,13 @@ I study computer science at Quinnipiac University (I transferred from the Univer
       Six sorting algorithms (bubble, insertion, selection, shell, merge and quick) timed against each other on random, sorted and reversed datasets of 50k to 600k values, with the results graphed in Python.
       <br><br>
       <sub>C++ · CMake · Python</sub>
+    </td>
+        <td width="50%" valign="top">
+      <h4><a href="https://github.com/llynch314/QUHack">AI Mental Well-Being Companion ★ 1st Place Winner & Best Presentation</a></h4>
+      <sub>Quinnipiac Hack · November 2026</sub>
+      I Built the entire backend in Python/Flask: a REST API connecting the Claude text chat and webcam emotion analysis with Gemini Live real-time voice through a WebSocket relay, all wired to the frontend. Where I Designed the SQL database with Google sign-in and role-based access for patients, providers, and family, plus crisis detection that sends Twilio SMS/push alerts.
+      <br><br>
+      <sub>Python · Javascript · HTML · CSS · SQL · Gemini API · Claude API · AI Integration</sub>
     </td>
   </tr>
 </table>
